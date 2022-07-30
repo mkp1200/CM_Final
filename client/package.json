@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
+
+  
   "proxy": "https://memories-project-part4.herokuapp.com/",
   "dependencies": {
     "@material-ui/core": "^4.9.10",
