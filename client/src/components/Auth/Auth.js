@@ -37,12 +37,22 @@ const SignUp = () => {
     } else {
       dispatch(signin(form, history));
     }
+ // };
+
+  //const googleSuccess = async (res) => {
+  //  const result = res?.profileObj;
+  //  const token = res?.tokenId;
+
+  //  try {
+  //    dispatch({ type: AUTH, data: { result, token } });
+
+  //    history.push('/');
+  //  } catch (error) {
+   //   console.log(error);
+   // }
   };
 
-  
-  
-
-  
+  //const googleError = () => console.log('Google Sign In was unsuccessful. Try again later');
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
@@ -68,6 +78,7 @@ const SignUp = () => {
           <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
             { isSignup ? 'Sign Up' : 'Sign In' }
           </Button>
+          
           <Grid container justifyContent="flex-end">
             <Grid item>
               <Button onClick={switchMode}>

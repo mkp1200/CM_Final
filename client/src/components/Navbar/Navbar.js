@@ -5,8 +5,8 @@ import { useDispatch } from 'react-redux';
 import decode from 'jwt-decode';
 /* eslint-disable */
 
-
-//need to import new text title as soon as I create it. will need to add to app bar and link it to home//
+import clubmedia from '../../images/clubmedia.png';
+import clubtext from '../../images/clubtext.png';
 import * as actionType from '../../constants/actionTypes';
 import useStyles from './styles';
 
@@ -41,7 +41,8 @@ const Navbar = () => {
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" className={classes.brandContainer}>
         
-        
+        <img className={classes.image} src={clubmedia} alt="icon" height="40px" />
+        <img className={classes.image} src={clubtext} alt="icon" height="50px" width={500} />
       </Link>
       <Toolbar className={classes.toolbar}>
         {user?.result ? (
@@ -49,10 +50,15 @@ const Navbar = () => {
             <Avatar className={classes.purple} alt={user?.result.name} src={user?.result.imageUrl}>{user?.result.name.charAt(0)}</Avatar>
             <Typography className={classes.userName} variant="h6">{user?.result.name}</Typography>
             <Button variant="contained" className={classes.logout} color="secondary" onClick={logout}>Logout</Button>
+           
           </div>
         ) : (
+          
           <Button component={Link} to="/auth" variant="contained" color="primary">Sign In</Button>
         )}
+        <Link to="/" className={classes.brandContainer}>
+        <Button variant="contained" color="inherit">Home</Button>
+        </Link>
       </Toolbar>
     </AppBar>
   );

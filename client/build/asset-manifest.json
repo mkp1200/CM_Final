@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86bb0776.chunk.css",
+    "main.js": "/static/js/main.c7e416fe.chunk.js",
+    "main.js.map": "/static/js/main.c7e416fe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7e6e88a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7e6e88a6.js.map",
+    "static/js/2.fe7f570f.chunk.js": "/static/js/2.fe7f570f.chunk.js",
+    "static/js/2.fe7f570f.chunk.js.map": "/static/js/2.fe7f570f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2b45e679dec82206c4063660f1904112.js": "/precache-manifest.2b45e679dec82206c4063660f1904112.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.86bb0776.chunk.css.map": "/static/css/main.86bb0776.chunk.css.map",
+    "static/js/2.fe7f570f.chunk.js.LICENSE.txt": "/static/js/2.fe7f570f.chunk.js.LICENSE.txt",
+    "static/js/main.c7e416fe.chunk.js.LICENSE.txt": "/static/js/main.c7e416fe.chunk.js.LICENSE.txt",
+    "static/media/clubmedia.png": "/static/media/clubmedia.ede4606b.png",
+    "static/media/clubtext.png": "/static/media/clubtext.0bfc5eaf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e6e88a6.js",
+    "static/js/2.fe7f570f.chunk.js",
+    "static/css/main.86bb0776.chunk.css",
+    "static/js/main.c7e416fe.chunk.js"
+  ]
+}
